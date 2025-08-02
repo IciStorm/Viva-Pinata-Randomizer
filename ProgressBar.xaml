@@ -1,0 +1,13 @@
+﻿<Window x:Class="Randomizer.ProgressBar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Randomizer"
+        mc:Ignorable="d"
+        Title="Working..." Height="150" Width="400" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <StackPanel Margin="20">
+        <TextBlock x:Name="WorkingOn" FontSize="14" Text="Starting..." Margin="0,0,0,10"/>
+        <ProgressBar x:Name="ProgressTracker" Height="25" Minimum="0" Maximum="100"/>
+    </StackPanel>
+</Window>
