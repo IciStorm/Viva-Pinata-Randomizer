@@ -4,12 +4,12 @@ namespace ReqBlock
 {
     public static class BlockUtils
     {
-        public static void WriteHeader(BinaryWriter bw)
+        public static void WriteHeader(BinaryWriter bw) // Start of block
         {
             bw.Write((uint)0x03); // Standard header
         }
 
-        public static void WriteFooter(BinaryWriter bw)
+        public static void WriteFooter(BinaryWriter bw) // End of block
         {
             bw.Write((uint)0x64); // Footer segment 1
             bw.Write((uint)0x04); // Footer segment 2
@@ -17,7 +17,7 @@ namespace ReqBlock
             bw.Write((uint)0x00); // Footer padding
         }
 
-        public static void WriteMiddle(BinaryWriter bw)
+        public static void WriteMiddle(BinaryWriter bw) // Used to bridge multiple blocks together
         {
             bw.Write((uint)0x64);
             bw.Write((uint)0x05);

@@ -26,7 +26,6 @@ namespace Randomizer
     public partial class MainWindow : System.Windows.Window
     {
         public MainViewModel ViewModel { get; set; }
-        private string filepath = "";
 
         public MainWindow()
         {

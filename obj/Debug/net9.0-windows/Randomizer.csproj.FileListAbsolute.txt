@@ -21,3 +21,26 @@ C:\Users\brand\Desktop\VP Randomizer\Randomizer\obj\Debug\net9.0-windows\Randomi
 C:\Users\brand\Desktop\VP Randomizer\Randomizer\obj\Debug\net9.0-windows\ref\Randomizer.dll
 C:\Users\brand\Desktop\VP Randomizer\Randomizer\obj\Debug\net9.0-windows\ProgressBar.g.cs
 C:\Users\brand\Desktop\VP Randomizer\Randomizer\obj\Debug\net9.0-windows\ProgressBar.baml
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\bin\Debug\net9.0-windows\Randomizer.exe
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\bin\Debug\net9.0-windows\Randomizer.deps.json
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\bin\Debug\net9.0-windows\Randomizer.runtimeconfig.json
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\bin\Debug\net9.0-windows\Randomizer.dll
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\bin\Debug\net9.0-windows\Randomizer.pdb
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\ProgressBar.g.cs
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer_MarkupCompile.cache
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer_MarkupCompile.lref
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\ProgressBar.baml
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer.g.resources
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer.AssemblyInfoInputs.cache
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer.AssemblyInfo.cs
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer.csproj.CoreCompileInputs.cache
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer.sourcelink.json
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer.dll
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\refint\Randomizer.dll
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer.pdb
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\Randomizer.genruntimeconfig.cache
+C:\Users\brand\Documents\GitHub\Viva-Pinata-Randomizer\obj\Debug\net9.0-windows\ref\Randomizer.dll

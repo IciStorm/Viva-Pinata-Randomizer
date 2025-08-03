@@ -1,0 +1,93 @@
+using System;
+using System.Collections.Generic;
+
+public static class TagGroup
+{
+    public static readonly List<string> EatTags = new List<string>
+    {
+        "aid_taggroup_pinata_basic_animalandsweet_ant",
+        "aid_taggroup_pinata_basic_animalandsweet_badger",
+        "aid_taggroup_pinata_basic_animalandsweet_bat",
+        //"aid_taggroup_pinata_basic_animalandsweet_batpest",
+        "aid_taggroup_pinata_basic_animalandsweet_bear",
+        "aid_taggroup_pinata_basic_animalandsweet_beaver",
+        "aid_taggroup_pinata_basic_animalandsweet_bee",
+        "aid_taggroup_pinata_basic_animalandsweet_blackbutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_bluebottle",
+        "aid_taggroup_pinata_basic_animalandsweet_bluebutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_boomslang",
+        "aid_taggroup_pinata_basic_animalandsweet_brownbutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_bushbaby",
+        "aid_taggroup_pinata_basic_animalandsweet_buzzard",
+        "aid_taggroup_pinata_basic_animalandsweet_canary",
+        "aid_taggroup_pinata_basic_animalandsweet_cat",
+        "aid_taggroup_pinata_basic_animalandsweet_chameleon",
+        "aid_taggroup_pinata_basic_animalandsweet_chicken",
+        "aid_taggroup_pinata_basic_animalandsweet_cow",
+        "aid_taggroup_pinata_basic_animalandsweet_crocodile",
+        //"aid_taggroup_pinata_basic_animalandsweet_crocodilepest",
+        "aid_taggroup_pinata_basic_animalandsweet_crow",
+        //"aid_taggroup_pinata_basic_animalandsweet_crowpest",
+        "aid_taggroup_pinata_basic_animalandsweet_deer",
+        "aid_taggroup_pinata_basic_animalandsweet_dog",
+        "aid_taggroup_pinata_basic_animalandsweet_dragon",
+        "aid_taggroup_pinata_basic_animalandsweet_dragonfly",
+        "aid_taggroup_pinata_basic_animalandsweet_duck",
+        "aid_taggroup_pinata_basic_animalandsweet_eagle",
+        "aid_taggroup_pinata_basic_animalandsweet_elephant",
+        "aid_taggroup_pinata_basic_animalandsweet_firefly",
+        "aid_taggroup_pinata_basic_animalandsweet_firesalamander",
+        "aid_taggroup_pinata_basic_animalandsweet_flyingpig",
+        "aid_taggroup_pinata_basic_animalandsweet_fox",
+        "aid_taggroup_pinata_basic_animalandsweet_frog",
+        "aid_taggroup_pinata_basic_animalandsweet_goose",
+        "aid_taggroup_pinata_basic_animalandsweet_grasssnake",
+        "aid_taggroup_pinata_basic_animalandsweet_greenbutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_hedgehog",
+        "aid_taggroup_pinata_basic_animalandsweet_hippo",
+        "aid_taggroup_pinata_basic_animalandsweet_horse",
+        "aid_taggroup_pinata_basic_animalandsweet_hydra",
+        "aid_taggroup_pinata_basic_animalandsweet_lion",
+        "aid_taggroup_pinata_basic_animalandsweet_mandrill",
+        //"aid_taggroup_pinata_basic_animalandsweet_mandrillpest",
+        "aid_taggroup_pinata_basic_animalandsweet_mole",
+        //"aid_taggroup_pinata_basic_animalandsweet_molepest",
+        "aid_taggroup_pinata_basic_animalandsweet_monkey",
+        "aid_taggroup_pinata_basic_animalandsweet_moth",
+        "aid_taggroup_pinata_basic_animalandsweet_mouse",
+        "aid_taggroup_pinata_basic_animalandsweet_newt",
+        "aid_taggroup_pinata_basic_animalandsweet_orangebutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_parrot",
+        "aid_taggroup_pinata_basic_animalandsweet_pig",
+        "aid_taggroup_pinata_basic_animalandsweet_pigeon",
+        "aid_taggroup_pinata_basic_animalandsweet_pinkbutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_poisonfrog",
+        "aid_taggroup_pinata_basic_animalandsweet_pony",
+        "aid_taggroup_pinata_basic_animalandsweet_purplebutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_rabbit",
+        "aid_taggroup_pinata_basic_animalandsweet_raccoon",
+        //"aid_taggroup_pinata_basic_animalandsweet_raccoonpest",
+        "aid_taggroup_pinata_basic_animalandsweet_redbutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_sheep",
+        "aid_taggroup_pinata_basic_animalandsweet_snail",
+        //"aid_taggroup_pinata_basic_animalandsweet_snailpest",
+        "aid_taggroup_pinata_basic_animalandsweet_sparrow",
+        "aid_taggroup_pinata_basic_animalandsweet_spider",
+        "aid_taggroup_pinata_basic_animalandsweet_squirrel",
+        "aid_taggroup_pinata_basic_animalandsweet_swan",
+        "aid_taggroup_pinata_basic_animalandsweet_unicorn",
+        "aid_taggroup_pinata_basic_animalandsweet_whitebutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_wolf",
+        //"aid_taggroup_pinata_basic_animalandsweet_wolfpest",
+        "aid_taggroup_pinata_basic_animalandsweet_worm",
+        "aid_taggroup_pinata_basic_animalandsweet_yellowbutterfly",
+        "aid_taggroup_pinata_basic_animalandsweet_zebra"
+    };
+
+    private static readonly Random rng = new Random();
+
+    public static string GetRandomEatTag()
+    {
+        return EatTags[rng.Next(EatTags.Count)];
+    }
+}

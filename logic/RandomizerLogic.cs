@@ -2,6 +2,8 @@ using Randomizer.Core;
 using Randomizer.PKG;
 using ReqBlock;
 using System.IO;
+using System.Text;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using BYTES = System.Collections.Generic.List<byte>;
 
 public static class RandomizerLogic
@@ -9,39 +11,111 @@ public static class RandomizerLogic
     public static void RunFullRandomization(Pkg pkg, string exportPath, string logPath)
     {
         var patchMap = new Dictionary<string, BYTES>();
+
         using StreamWriter logWriter = new StreamWriter(logPath);
+        logWriter.WriteLine("=== Viva Piñata Randomizer Log ===");
+        logWriter.WriteLine("Version: 0.0.1");
+        logWriter.WriteLine("Seed: To be Implemented (NONE)\n\n");
 
-        logWriter.WriteLine($"Full Randomization Log - {DateTime.Now}");
-        logWriter.WriteLine($"PKG: {Path.GetFileName(pkg.Path)}\n");
+        HandleAppearChunks(pkg, patchMap, logWriter);
+        HandleVisitChunks(pkg, patchMap, logWriter);
+        HandleResidentChunks(pkg, patchMap, logWriter);
+        //HandleMateChunks(pkg, patchMap, logWriter);
 
-        // Collect all chunk names
-        var allChunks = new List<string>();
-        allChunks.AddRange(TargetChunkNames.ResidentChunks());
-        allChunks.AddRange(TargetChunkNames.MateChunks());
+        PkgHandler.ReplaceMultipleChunks(pkg, caffNumber: 0, patchMap, exportPath, overridePkg: true);
 
-        foreach (string chunkName in allChunks)
-        {
-            string tag = TagGroup.GetRandomEatTag();
-            var block = new RequirementBlock16(tag);
-            var patch = block.ToBytes();
-
-            patchMap[chunkName] = patch.ToList();
-            logWriter.WriteLine($"Replaced: {chunkName} with RequirementBlock16 (Tag: {tag})");
-        }
-
-        PkgHandler.ReplaceMultipleChunks(pkg, caffNumber: 0, patchMap, exportPath, true);
         logWriter.WriteLine($"\nCompleted. Total patched chunks: {patchMap.Count}");
     }
 
+
+    public static (byte[] data, List<BlockStruct> blocks) BuildRandomRequirementSet(List<Func<BlockStruct>> blockPool)
+    {
+        int count = 1; //Random.Shared.Next(1, 5);
+        var builder = new PatchFileBuilder();
+        var blocks = new List<BlockStruct>();
+
+        for (int i = 0; i < count; i++)
+        {
+            var block = blockPool[Random.Shared.Next(blockPool.Count)]();
+            blocks.Add(block);
+            builder.AddBlock(block);
+        }
+
+        return (builder.Build(), blocks);
+    }
+
+    private static void HandleAppearChunks(Pkg pkg, Dictionary<string, BYTES> patchMap, StreamWriter log)
+    {
+        foreach (string chunkName in TargetChunkNames.AppearChunks())
+        {
+            var (data, blocks) = BuildRandomRequirementSet(BlockPools.AppearBlocks);
+            patchMap[chunkName] = data.ToList();
+
+            string species = LogNames.getChunkNameFromReqspinata(chunkName);
+            string displayName = LogNames.InternalToDisplay.GetValueOrDefault(species, species);
+
+            log.WriteLine($"[Appear] {displayName}:");
+            foreach (var block in blocks)
+            {
+                log.WriteLine($" - {RequirementDescriptions.LogText(block)}");
+            }
+        }
+    }
+
+    private static void HandleVisitChunks(Pkg pkg, Dictionary<string, BYTES> patchMap, StreamWriter log)
+    {
+        foreach (string chunkName in TargetChunkNames.EnterChunks())
+        {
+            var (data, blocks) = BuildRandomRequirementSet(BlockPools.VisitBlocks);
+            patchMap[chunkName] = data.ToList();
+
+            string species = LogNames.getChunkNameFromReqspinata(chunkName);
+            string displayName = LogNames.InternalToDisplay.GetValueOrDefault(species, species);
+
+            log.WriteLine($"[Visit] {displayName}:");
+            foreach (var block in blocks)
+            {
+                log.WriteLine($" - {RequirementDescriptions.LogText(block)}");
+            }
+        }
+    }
 
     private static void HandleResidentChunks(Pkg pkg, Dictionary<string, BYTES> patchMap, StreamWriter log)
     {
         foreach (string chunkName in TargetChunkNames.ResidentChunks())
         {
-            string tag = TagGroup.GetRandomEatTag();
-            var block = new RequirementBlock16();
-            patchMap[chunkName] = block.ToBytes().ToList();
-            log.WriteLine($"[Resident] Replaced: {chunkName} with Tag: {tag}");
+            var (data, blocks) = BuildRandomRequirementSet(BlockPools.ResidentBlocks);
+            patchMap[chunkName] = data.ToList();
+
+            string species = LogNames.getChunkNameFromReqspinata(chunkName);
+            string displayName = LogNames.InternalToDisplay.GetValueOrDefault(species, species);
+
+            log.WriteLine($"[Resident] {displayName}:");
+            foreach (var block in blocks)
+            {
+                log.WriteLine($" - {RequirementDescriptions.LogText(block)}");
+            }
         }
     }
+
+    private static void HandleVariantChunks(Pkg pkg, Dictionary<string, BYTES> patchMap, StreamWriter log)
+    {
+        foreach (string chunkName in TargetChunkNames.VariantChunks())
+        {
+            var (data, blocks) = BuildRandomRequirementSet(BlockPools.VariantBlocks);
+            patchMap[chunkName] = data.ToList();
+
+            string species = LogNames.getChunkNameFromReqspinata(chunkName);
+            string displayName = LogNames.InternalToDisplay.GetValueOrDefault(species, species);
+
+            log.WriteLine($"[Variant] {displayName}:");
+            foreach (var block in blocks)
+            {
+                log.WriteLine($" - {RequirementDescriptions.LogText(block)}");
+            }
+        }
+    }
+
+
+
 }
