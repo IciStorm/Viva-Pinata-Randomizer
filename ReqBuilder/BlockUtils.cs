@@ -25,8 +25,7 @@ namespace ReqBlock
             
         public static byte[] PadTag(byte[] data, int totalLength)
         {
-            // Get difference between character length and total length of padding and delete the stuff below
-
+            // Get difference between character length and total length of padding to maintain required buffer for taglength
             byte[] result = new byte[totalLength];
             data.CopyTo(result, 0);
             return result;

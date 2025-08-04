@@ -30,14 +30,27 @@ public static class RandomizerLogic
 
     public static (byte[] data, List<BlockStruct> blocks) BuildRandomRequirementSet(List<Func<BlockStruct>> blockPool)
     {
-        int count = 1; //Random.Shared.Next(1, 5);
+        int count = Random.Shared.Next(1, 5);
+        int attempts = 0;
         var builder = new PatchFileBuilder();
         var blocks = new List<BlockStruct>();
 
-        for (int i = 0; i < count; i++)
+        var usedTypes = new HashSet<Type>();
+
+        while (blocks.Count < count && attempts < 10)
         {
-            var block = blockPool[Random.Shared.Next(blockPool.Count)]();
+            var factory = blockPool[Random.Shared.Next(blockPool.Count)];
+            var block = factory();
+            var type = block.GetType();
+
+            if (BlockPools.SingleOnlyBlockTypes.Contains(type) && usedTypes.Contains(type))
+            {
+                attempts++;
+                continue;
+            }
+
             blocks.Add(block);
+            usedTypes.Add(type);
             builder.AddBlock(block);
         }
 

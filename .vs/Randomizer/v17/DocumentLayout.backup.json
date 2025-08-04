@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\reqbuilder\\reqblocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:reqbuilder\\reqblocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\reqbuilder\\blockpools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:reqbuilder\\blockpools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\reqbuilder\\reqblocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:reqbuilder\\reqblocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\reqbuilder\\blockutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:reqbuilder\\blockutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\logic\\randomizerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:logic\\randomizerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\logic\\targetchunknames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:logic\\targetchunknames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\core\\pkghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:core\\pkghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\logic\\taggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:logic\\taggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\logic\\targetchunknames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|solutionrelative:logic\\targetchunknames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12DF1C39-2010-4B42-84F0-E2769BF98A08}|Randomizer.csproj|c:\\users\\brand\\documents\\github\\viva-pinata-randomizer\\logic\\lognames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,17 +50,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 400,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PkgHandler.cs",
+              "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\core\\PkgHandler.cs",
+              "RelativeDocumentMoniker": "core\\PkgHandler.cs",
+              "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\core\\PkgHandler.cs",
+              "RelativeToolTip": "core\\PkgHandler.cs",
+              "ViewState": "AgIAADoBAAAAAAAAAAAAwEYBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T21:06:33.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Taggroup.cs",
               "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\logic\\Taggroup.cs",
               "RelativeDocumentMoniker": "logic\\Taggroup.cs",
               "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\logic\\Taggroup.cs",
               "RelativeToolTip": "logic\\Taggroup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAgwFIBAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T23:43:52.45Z",
               "EditorCaption": ""
@@ -60,58 +81,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TargetChunkNames.cs",
-              "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\logic\\TargetChunkNames.cs",
-              "RelativeDocumentMoniker": "logic\\TargetChunkNames.cs",
-              "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\logic\\TargetChunkNames.cs",
-              "RelativeToolTip": "logic\\TargetChunkNames.cs",
-              "ViewState": "AgIAAEoCAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T22:41:17.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "RandomizerLogic.cs",
               "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\logic\\RandomizerLogic.cs",
               "RelativeDocumentMoniker": "logic\\RandomizerLogic.cs",
               "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\logic\\RandomizerLogic.cs",
               "RelativeToolTip": "logic\\RandomizerLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T20:01:14.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "BlockUtils.cs",
+              "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\ReqBuilder\\BlockUtils.cs",
+              "RelativeDocumentMoniker": "ReqBuilder\\BlockUtils.cs",
+              "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\ReqBuilder\\BlockUtils.cs",
+              "RelativeToolTip": "ReqBuilder\\BlockUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T17:40:57.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TargetChunkNames.cs",
+              "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\logic\\TargetChunkNames.cs",
+              "RelativeDocumentMoniker": "logic\\TargetChunkNames.cs",
+              "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\logic\\TargetChunkNames.cs",
+              "RelativeToolTip": "logic\\TargetChunkNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T22:41:17.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ReqBlocks.cs",
               "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\ReqBuilder\\ReqBlocks.cs",
               "RelativeDocumentMoniker": "ReqBuilder\\ReqBlocks.cs",
-              "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\ReqBuilder\\ReqBlocks.cs",
-              "RelativeToolTip": "ReqBuilder\\ReqBlocks.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAqwKQAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\ReqBuilder\\ReqBlocks.cs*",
+              "RelativeToolTip": "ReqBuilder\\ReqBlocks.cs*",
+              "ViewState": "AgIAAO8AAAAAAAAAAAASwAMBAACiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T20:35:45.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BlockPools.cs",
               "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\ReqBuilder\\BlockPools.cs",
               "RelativeDocumentMoniker": "ReqBuilder\\BlockPools.cs",
-              "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\ReqBuilder\\BlockPools.cs*",
-              "RelativeToolTip": "ReqBuilder\\BlockPools.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\ReqBuilder\\BlockPools.cs",
+              "RelativeToolTip": "ReqBuilder\\BlockPools.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwCgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T20:01:07.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LogNames.cs",
               "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\logic\\LogNames.cs",
               "RelativeDocumentMoniker": "logic\\LogNames.cs",
@@ -129,13 +162,14 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwBsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T19:07:41.91Z"
+              "WhenOpened": "2025-08-02T19:07:41.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\brand\\Documents\\GitHub\\Viva-Pinata-Randomizer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",

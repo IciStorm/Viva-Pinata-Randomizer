@@ -13,9 +13,24 @@ namespace ReqBlock
         {
             using var ms = new MemoryStream();
             using var bw = new BinaryWriter(ms);
-            foreach (var block in blocks)
-                bw.Write(block.ToBytes());
+
+            BlockUtils.WriteHeader(bw);
+
+            for (int i = 0; i < blocks.Count; i++)
+            {
+                var block = blocks[i];
+                bool isLast = (i == blocks.Count - 1);
+
+                block.WriteData(bw);
+
+                if (isLast)
+                    BlockUtils.WriteFooter(bw);
+                else
+                    BlockUtils.WriteMiddle(bw);
+            }
+
             return ms.ToArray();
         }
     }
+
 }
